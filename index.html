@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>       <!--This is a certification challenge from FCC-->
+    <main>
+      <h1 id="title"><span>4ex</span> Survey Form</h1>
+      <p id="description">Thank you for trust us!<br>
+    Please answer a few questions.</p>
+    
+  
+      <form id="survey-form" method="post" action="">
+        <fieldset class="personal">
+          <label id="name-label" for="name">What's your name? <input id="name" type="text" name="name" placeholder="Your first and last name" required></label><br>
+          <label id="email-label" for="email">Introduce your email: <input id="email" type="email" name="email" placeholder="Introduce a valid email" required></label><br>
+          <label id="number-label" for="number">How old are you? <input id="number" type="number" name="age" placeholder="Min. 18" min="18" max="120" required></label>
+        </fieldset>
+    
+   
+        <fieldset class="job">What sector do you work in?
+          <select id="dropdown">
+            <option value="0">Select one</option>
+            <option value="1">Education</option>
+            <option value="2">Finance</option>
+            <option value="3">Health care</option>
+            <option value="4">Administration</option>
+            <option value="5">Arts</option>
+            <option value="6">Communications</option>
+            <option value="7">Construction</option>
+            <option value="8">Human Resources</option>
+            <option value="9">Marketing</option>
+            <option value="10">Sales</option>
+            <option value="11">Computer and I.T.</option>
+            <option value="12">Agriculture</option>
+            <option value="13">Manufacturing</option>
+        
+          </select> 
+        </fieldset>
+        <fieldset class="risk">
+          <legend>Do you consider yourself a risk-loving person?</legend>
+      
+          <input type="radio" name="sure" value="yes" checked> Yes
+          <input type="radio" name="sure" value="no"> No        <input type="radio" name="sure" value="maybe"> Maybe
+          
+        </fieldset>
+      <fieldset class="how">
+      How did you get to know us?
+        <select id="dropdown">
+          <option value="0">Select one</option>
+          <option value="1">Google</option>
+          <option value="2">Social media</option>
+          <option value="3">News</option>
+          <option value="4">Advertising</option>
+          <option value="5">Others</option>
+        </select> 
+      </fieldset>
+    
+    
+   
+      <fieldset class="markets">What are your favorite markets? (Select all that apply)
+        <label for="shares">Shares <input id="shares" type="checkbox" value="1"></label>
+        <label for="indices">Indices <input id="indices" type="checkbox" value="2"></label>
+        <label for="commodities">Commodities <input id="commodities" type="checkbox" value="3"></label>
+        <label for="forex">Forex <input id="forex" type="checkbox" value="4"></label>
+        <label for="crypto">Crypto <input id="crypto" type="checkbox" value="5"></label>
+        <label for="etf">ETF <input id="etf" type="checkbox" value="6"></label>
+      </fieldset>
+    
+    
+      
+      <fieldset class="suggest">Have you any suggestion?
+        <textarea>Feel free to tell us all what you want.</textarea>
+      </fieldset>
+      <button id="submit">Submit</button>
+      
+    
+    </form>
+  </main>
+ </body>
+</html>

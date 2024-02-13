@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(#3772EB, #5BDBE4);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 24px;
+    }
+  
+  main {
+    display: block;
+    margin: 150px 300px;
+    background-color: #2559B3;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10%;
+  }
+  
+  #title {
+    font-family: serif;
+    margin: 60px;
+    color: #ffffff;
+    font-size: 70px;
+  }
+  
+  span {
+      font-size: 100px;
+      border: 10px solid #FFB03C;
+      border-radius: 50%;
+      color: #FFB03C;
+      }
+  
+  #survey-form {
+    background-color: #16B0E3;
+    padding: 30px;
+    border-radius: 10%;
+  }
+  
+  #name, #email, #number, #dropdown {
+    display: block;
+    margin: 5px auto;
+    padding: 10px 50px;
+    background-color: #2559B3;
+    color: #ffffff;
+    }
+  
+  #description {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+    margin: 50px auto;
+  }
+      
+   .personal {
+     margin: 10px auto;
+     border: none;
+     font-family: sans-serif;
+     display: block;
+    
+  }
+  
+  .job, .risk, .how, .markets, .suggest {
+    border: none;
+    display: block;
+   }
+  
+  .risk label {
+    display: block;
+    margin: 10px;
+  }
+  
+  .markets label {
+    display: block;
+    margin: 10px;
+    }
+  
+  .suggest textarea {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    min-height: 6em;
+  }
+  
+  #submit {
+    border: none;
+    border-radius: 20%;
+    display: block;
+    margin: 30px auto;
+    padding: 1rem 2rem;
+    background-color: #FFB03C;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    }
